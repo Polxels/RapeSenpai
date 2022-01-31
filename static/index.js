@@ -348,7 +348,7 @@
             return 'dark♂计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-if (score <= 10) return '你要不要吧';
+        if (score <= 10) return '你要不要吧';
         if (score <= 49) return '弱欸,拜托,你很弱欸';
         if (score <= 99) return '害羞↘羞↗~';
         if (score <= 149) return '萨日朗!';
