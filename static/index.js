@@ -348,12 +348,12 @@
             return 'dark♂计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
         }
         SubmitResults();
-        if (score <= 10) return '你要不要吧';
-        if (score <= 49) return '弱欸,拜托,你很弱欸';
+        if (score <= 10) return '这不是天才是什么';
+        if (score <= 49) return '逊呐(胁迫)';
         if (score <= 99) return '害羞↘羞↗~';
-        if (score <= 149) return '萨日朗!';
+        if (score <= 149) return '这小子指定有点副♂业';
         if (score <= 199) return '嗯哼哼啊啊啊啊啊啊~';
-        return '都撅烂了罢（恼';
+        return '都撅烂了罢（恼）';
     }
 
     w.toStr = function(obj) {
